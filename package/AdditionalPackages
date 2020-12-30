@@ -1,0 +1,4 @@
+menu "Additional packages"
+        source "package/wimlib/Config.in"
+        source "package/chntpw/Config.in"
+endmenu

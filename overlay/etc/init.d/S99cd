@@ -1,0 +1,10 @@
+#!/bin/bash
+/bin/lie_start
+
+#If we end up here and task is not debug, something went wrong
+if [ "$task" != "debug" ]; then
+	echo " ** Unknown Error ** "
+	echo " ** Powering Off ** "
+	sleep 10	
+	poweroff -f
+fi
